@@ -6,5 +6,6 @@ package com.forezp.util;
 public class TestGit {
     public static void main(String age[]){
         System.out.println(1);
+        System.out.println(2);
     }
 }
