@@ -5,14 +5,21 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
-    password:
+    password: cmccadmin
 
   jpa:
     hibernate:
       ddl-auto: none
     show-sql: true
 
+server:
+  port: 8081
+  context-path: /springboot
 
+girl:
+  cupSize: F
+  age: 18
+  content: content:${cupSize},age:${age}
 
 
 
