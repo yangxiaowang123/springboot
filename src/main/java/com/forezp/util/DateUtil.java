@@ -58,6 +58,7 @@ public class DateUtil {
     public static final String DEFAULT_SECOND = "SECOND";
 
     public static final String TEST = "test";
+	public static final String TEST_NEW = "testnew";
 
 	/**
 	 * 格式化当前日期
