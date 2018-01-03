@@ -54,8 +54,10 @@ public class DateUtil {
     /**缺省分钟格式*/  
     public static final String DEFAULT_MINUTE = "MINUTE";  
       
-    /**缺省秒格式*/  
-    public static final String DEFAULT_SECOND = "SECOND";  
+    /**缺省秒格式*/
+    public static final String DEFAULT_SECOND = "SECOND";
+
+    public static final String TEST = "test";
 
 	/**
 	 * 格式化当前日期
